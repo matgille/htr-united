@@ -1,0 +1,67 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: TranscriboQuest24_Icelandic
+url: ' https://doi.org/10.5281/zenodo.13757377'
+authors:
+  - name: Katarzyna Anna
+    surname: Kapitan
+    orcid: 0000-0003-2763-0056
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+  - name: Chris
+    surname: Latham
+    orcid: 0009-0001-8096-578X
+    roles:
+      - transcriber
+      - aligner
+      - quality-control
+  - name: Ariane
+    surname: Pinche
+    orcid: 0000-0002-7843-5050
+    roles:
+      - project-manager
+      - support
+  - name: Giovanni
+    surname: Verri
+    orcid: 0000-0002-1297-2152
+    roles:
+      - quality-control
+      - support
+  - name: N. Kıvılcım
+    surname: Yavuz
+    orcid: 0000-0002-2735-9027
+    roles:
+      - quality-control
+      - support
+institutions: []
+description: >-
+  The dataset contains training data for HTR for Old Norse-Icelandic materials
+  from the 13th and 14th centuries. 
+
+  It is a result of a pilot project conducted within the scope of
+  TranscriboQuest 2024
+language:
+  - non
+  - isl
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+    qualify: Textualis
+script-type: only-manuscript
+time:
+  notBefore: '1260'
+  notAfter: '1370'
+hands:
+  count: 1-per-file
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: lines
+    count: 423
+transcription-guidelines: 'See the README file. '
